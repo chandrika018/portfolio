@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="AI & Machine Learning Projects Portfolio of Chandrika Nandehariya - IT Engineering Student passionate about Python, ML, NLP, and Data Analytics.">
+    <meta name="keywords"
+        content="Chandrika Nandehariya, AI, Machine Learning, Data Science, Python Developer, Portfolio, IT Engineering, Scikit-Learn, NLP, Streamlit">
+    <meta name="author" content="Chandrika Nandehariya">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AI & Machine Learning Projects Portfolio | Chandrika Nandehariya">
+    <meta property="og:description"
+        content="Explore the machine learning pipelines, natural language processing models, and AI career tools built by ITEngineering student Chandrika Nandehariya.">
+    <meta property="og:image" content="assets/profile.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="AI & Machine Learning Projects Portfolio | Chandrika Nandehariya">
+    <meta property="twitter:description"
+        content="Explore the machine learning pipelines, natural language processing models, and AI career tools built by ITEngineering student Chandrika Nandehariya.">
+    <meta property="twitter:image" content="assets/profile.png">
+
+    <title>AI & Machine Learning Projects Portfolio | Chandrika Nandehariya</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/profile.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#home" class="logo" id="nav-logo">
+                <span class="logo-accent">&lt;</span>Chandrika<span class="logo-accent">.dev /&gt;</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="assets/Chandrika_Nandehariya_Resume.pdf" download="Chandrika_Nandehariya_Resume.pdf"
+                    class="btn-resume-nav">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <span>Resume</span>
+                </a>
+                <button class="mobile-toggle" id="mobile-toggle-btn" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobile-drawer-menu">
+        <nav class="drawer-nav">
+            <a href="#home" class="drawer-link">Home</a>
+            <a href="#about" class="drawer-link">About</a>
+            <a href="#skills" class="drawer-link">Skills</a>
+            <a href="#projects" class="drawer-link">Projects</a>
+            <a href="#contact" class="drawer-link">Contact</a>
+            <a href="assets/Python developer (1).pdf" download="Python_developer.pdf"
+                class="drawer-btn">
+                <i class="fa-solid fa-file-pdf"></i> Download Resume
+            </a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="section-container hero-grid">
+                <div class="hero-content scroll-reveal" data-reveal-dir="left">
+                    <span class="hero-welcome">Seeking Internship Opportunities</span>
+                    <h1 class="hero-title">
+                        Chandrika Nandehariya <span class="gradient-text">Python Developer</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span id="typewriter"
+                            data-words='["Python Specialist", "Machine Learning Engineer", "IT Engineering Student"]'></span>
+                        <span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-intro">
+                        IT Engineering Student passionate about Artificial Intelligence, Machine Learning, Python
+                        Development, and Data Science.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary" id="btn-view-projects">
+                            <span>View Projects</span>
+                            <i class="fa-solid fa-arrow-right btn-icon"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <span>Contact Me</span>
+                        </a>
+                        <a href="assets/Python developer (1).pdf" download="Python developer (1).pdf"
+                            class="btn btn-text hero-resume-btn">
+                            <i class="fa-solid fa-file-pdf btn-icon-left"></i>
+                            <span>Download Resume</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-img-container scroll-reveal" data-reveal-dir="right">
+                    <div class="profile-frame">
+                        <img src="assets/profile.png" alt="Chandrika Nandehariya Profile" class="profile-img">
+                        <div class="profile-ring"></div>
+                        <div class="profile-dots"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">IT Engineering <span class="gradient-text">Student</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text scroll-reveal" data-reveal-dir="left">
+                        <p class="about-paragraph">
+                            I am a dedicated <strong>IT Engineering Student</strong> with a passion for building
+                            intelligent, data-driven systems and software engineering.
+                        </p>
+                        <p class="about-paragraph">
+                            I am deeply interested in <strong>Artificial Intelligence, Machine Learning, Python
+                                Development, and Data Analytics</strong>. My academic coursework and hands-on projects
+                            focus on developing efficient data structures, modeling predictive algorithms, and designing
+                            clean statistical visualization pipelines.
+                        </p>
+                        <p class="about-paragraph">
+                            My developmental philosophy is centered on <strong>solving real-world problems through
+                                technology</strong>. I focus on writing high-quality, reusable, and modular Python code
+                            that optimizes prediction results, handles robust data preprocessing, and scales
+                            effectively.
+                        </p>
+                        <p class="about-paragraph">
+                            I am a <strong>continuous learner with hands-on project experience</strong>. My academic
+                            achievements, including maintaining a strong <strong>8.40 SPI/CPI</strong> at GTU, are
+                            complemented by practical applications of algorithms to solve real-world problems.
+                        </p>
+                    </div>
+
+                    <div class="about-cards scroll-reveal" data-reveal-dir="right">
+                        <div class="about-card">
+                            <div class="about-card-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div class="about-card-info">
+                                <h3 class="about-card-title">IT Engineering</h3>
+                                <p class="about-card-desc">Undergraduate student at GTU. Ranking in the top 5% of
+                                    semester cohort with academic honors.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-card">
+                            <div class="about-card-icon">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <div class="about-card-info">
+                                <h3 class="about-card-title">AI & ML Interests</h3>
+                                <p class="about-card-desc">Specialized focus on supervised classifiers, regressors, NLP
+                                    workflows, and tf-idf models.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-card">
+                            <div class="about-card-icon">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </div>
+                            <div class="about-card-info">
+                                <h3 class="about-card-title">Real-world Problem Solving</h3>
+                                <p class="about-card-desc">Engineering complete computational pipelines from exploratory
+                                    analysis to streamable user interfaces.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Expertise</span>
+                    <h2 class="section-title">Technical <span class="gradient-text">Skillset</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming -->
+                    <div class="skills-category-card scroll-reveal" data-reveal-dir="up">
+                        <h3 class="skills-category-title"><i
+                                class="fa-solid fa-laptop-code category-icon"></i>Programming Languages</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill progress-animate" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill progress-animate" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill progress-animate" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Machine Learning -->
+                    <div class="skills-category-card scroll-reveal" data-reveal-dir="up">
+                        <h3 class="skills-category-title"><i class="fa-solid fa-brain category-icon"></i>Machine
+                            Learning</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Scikit-Learn</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill progress-animate" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Pandas</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill progress-animate" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">NumPy</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill progress-animate" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Matplotlib</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill progress-animate" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skills-category-card tools-card scroll-reveal" data-reveal-dir="up">
+                        <h3 class="skills-category-title"><i class="fa-solid fa-toolbox category-icon"></i>Tools</h3>
+                        <div class="tools-grid">
+                            <div class="tool-tag"><i class="fa-solid fa-cloud-bolt"></i> Google Colab</div>
+                            <div class="tool-tag"><i class="fa-solid fa-book"></i> Jupyter Notebook</div>
+                            <div class="tool-tag"><i class="fa-brands fa-github"></i> GitHub</div>
+                            <div class="tool-tag"><i class="fa-solid fa-code"></i> VS Code</div>
+                            <div class="tool-tag"><i class="fa-solid fa-rocket"></i> Streamlit</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Portfolio</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <!-- Filter Controls -->
+                <div class="projects-filter scroll-reveal">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                    <button class="filter-btn" data-filter="nlp">NLP / AI Systems</button>
+                    <button class="filter-btn" data-filter="analytics">Data Analytics</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Rock vs Mine Prediction -->
+                    <div class="project-card scroll-reveal" data-reveal-dir="up" data-category="ml">
+                        <div class="project-image-container">
+                            <img src="assets/project1.png" alt="Rock vs Mine Prediction Showcase" class="project-img">
+                            <div class="project-stat-badge">Classification</div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/chandrika018/Rock-vs-Mine-Sonar" target="_blank"
+                                        rel="noopener noreferrer" class="project-icon-link"
+                                        aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" class="project-icon-link" aria-label="Live Demo"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tech-stack">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Pandas</span>
+                                <span class="tech-badge">NumPy</span>
+                                <span class="tech-badge">Scikit-Learn</span>
+                                <span class="tech-badge">Google Colab</span>
+                            </div>
+                            <h3 class="project-title">Rock vs Mine Prediction</h3>
+                            <p class="project-description">
+                                Developed a Machine Learning model that predicts whether an underwater object is a Rock
+                                or a Mine using SONAR signal data. Performed data preprocessing, model training,
+                                testing, and prediction using Scikit-Learn.
+                            </p>
+                            <ul class="project-features">
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Processed 60 channels of
+                                    acoustic sonar return frequency data.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Configured feature scaling and
+                                    binary label mapping pipelines.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Trained Logistic Regression
+                                    model with robust validation accuracy.</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/chandrika018/Rock-vs-Mine-Sonar" target="_blank"
+                                    rel="noopener noreferrer" class="btn-project btn-project-outline">
+                                    <i class="fa-brands fa-github animate-icon"></i> GitHub
+                                </a>
+                                <a href="#" class="btn-project btn-project-primary">
+                                    <i class="fa-solid fa-arrow-up-right-from-square animate-icon"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: House Price Prediction -->
+                    <div class="project-card scroll-reveal" data-reveal-dir="up" data-category="ml analytics">
+                        <div class="project-image-container">
+                            <img src="assets/project2.png" alt="House Price Prediction Showcase" class="project-img">
+                            <div class="project-stat-badge">Regression</div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/chandrika018/House-Price-Prediction" target="_blank"
+                                        rel="noopener noreferrer" class="project-icon-link"
+                                        aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" class="project-icon-link" aria-label="Live Demo"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tech-stack">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Pandas</span>
+                                <span class="tech-badge">NumPy</span>
+                                <span class="tech-badge">Scikit-Learn</span>
+                                <span class="tech-badge">Matplotlib</span>
+                            </div>
+                            <h3 class="project-title">House Price Prediction</h3>
+                            <p class="project-description">
+                                Built a Machine Learning model to estimate house prices using property features. Applied
+                                data preprocessing, feature analysis, training, and prediction techniques.
+                            </p>
+                            <ul class="project-features">
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Conducted multi-variable
+                                    correlation checks and outlier removal.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Applied label encoding to
+                                    categorical structural attributes.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Trained Random Forest
+                                    Regressors, tuning hyperparameters via search grids.</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/chandrika018/House-Price-Prediction" target="_blank"
+                                    rel="noopener noreferrer" class="btn-project btn-project-outline">
+                                    <i class="fa-brands fa-github animate-icon"></i> GitHub
+                                </a>
+                                <a href="#" class="btn-project btn-project-primary">
+                                    <i class="fa-solid fa-arrow-up-right-from-square animate-icon"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Fake News Prediction -->
+                    <div class="project-card scroll-reveal" data-reveal-dir="up" data-category="nlp ml">
+                        <div class="project-image-container">
+                            <img src="assets/project3.png" alt="Fake News Prediction Showcase" class="project-img">
+                            <div class="project-stat-badge">NLP Classifier</div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/chandrika018/Fake-News-Prediction" target="_blank"
+                                        rel="noopener noreferrer" class="project-icon-link"
+                                        aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" class="project-icon-link" aria-label="Live Demo"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tech-stack">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">NLP</span>
+                                <span class="tech-badge">Scikit-Learn</span>
+                                <span class="tech-badge">Pandas</span>
+                                <span class="tech-badge">NumPy</span>
+                            </div>
+                            <h3 class="project-title">Fake News Prediction</h3>
+                            <p class="project-description">
+                                Created an NLP-based machine learning model that classifies news articles as Real or
+                                Fake using TF-IDF vectorization and classification algorithms.
+                            </p>
+                            <ul class="project-features">
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Parsed unstructured content
+                                    removing non-alphabetical indicators.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Transformed text tokens using
+                                    TF-IDF term frequency vectorizers.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Implemented Passive Aggressive
+                                    and Logistic models.</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/chandrika018/Fake-News-Prediction" target="_blank"
+                                    rel="noopener noreferrer" class="btn-project btn-project-outline">
+                                    <i class="fa-brands fa-github animate-icon"></i> GitHub
+                                </a>
+                                <a href="#" class="btn-project btn-project-primary">
+                                    <i class="fa-solid fa-arrow-up-right-from-square animate-icon"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: AI Career Counseling System -->
+                    <div class="project-card scroll-reveal" data-reveal-dir="up" data-category="nlp ml">
+                        <div class="project-image-container">
+                            <img src="assets/project4.png" alt="AI Career Counseling System Showcase"
+                                class="project-img">
+                            <div class="project-stat-badge">AI Streamlit App</div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/chandrika018/AI-Career-Counseling-System"
+                                        target="_blank" rel="noopener noreferrer" class="project-icon-link"
+                                        aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" class="project-icon-link" aria-label="Live Demo"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tech-stack">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Machine Learning</span>
+                                <span class="tech-badge">Streamlit</span>
+                                <span class="tech-badge">NLP</span>
+                            </div>
+                            <h3 class="project-title">AI Career Counseling System</h3>
+                            <p class="project-description">
+                                Designed an AI-powered career guidance platform that recommends suitable career paths
+                                based on student interests, skills, education, and goals.
+                            </p>
+                            <ul class="project-features">
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Structured user profile
+                                    assessment forms via Streamlit interfaces.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Mapped interest vectors to
+                                    high-demand engineering skill graphs.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Implemented cosine similarity
+                                    mapping for personalized suggestions.</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/chandrika018/AI-Career-Counseling-System" target="_blank"
+                                    rel="noopener noreferrer" class="btn-project btn-project-outline">
+                                    <i class="fa-brands fa-github animate-icon"></i> GitHub
+                                </a>
+                                <a href="#" class="btn-project btn-project-primary">
+                                    <i class="fa-solid fa-arrow-up-right-from-square animate-icon"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Student Performance Predictor -->
+                    <div class="project-card scroll-reveal" data-reveal-dir="up" data-category="ml analytics">
+                        <div class="project-image-container">
+                            <img src="assets/project5.png" alt="Student Performance Predictor Showcase"
+                                class="project-img">
+                            <div class="project-stat-badge">Predictive Analytics</div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/chandrika018/Student-Perf-Predictor" target="_blank"
+                                        rel="noopener noreferrer" class="project-icon-link"
+                                        aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" class="project-icon-link" aria-label="Live Demo"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tech-stack">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Machine Learning</span>
+                                <span class="tech-badge">Pandas</span>
+                                <span class="tech-badge">Scikit-Learn</span>
+                                <span class="tech-badge">Data Visualization</span>
+                            </div>
+                            <h3 class="project-title">Student Performance Predictor</h3>
+                            <p class="project-description">
+                                Developed a predictive analytics model that forecasts student academic performance using
+                                study-related and academic factors.
+                            </p>
+                            <ul class="project-features">
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Handled linear/ridge
+                                    regression pipelines predicting exam grades.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Plotted residual distribution
+                                    curves checking mathematical variance.</li>
+                                <li><i class="fa-solid fa-circle-check feature-icon"></i> Explored performance
+                                    correlations mapping study hours against GPA scores.</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/chandrika018/Student-Perf-Predictor" target="_blank"
+                                    rel="noopener noreferrer" class="btn-project btn-project-outline">
+                                    <i class="fa-brands fa-github animate-icon"></i> GitHub
+                                </a>
+                                <a href="#" class="btn-project btn-project-primary">
+                                    <i class="fa-solid fa-arrow-up-right-from-square animate-icon"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section">
+            <div class="section-container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Credentials</span>
+                    <h2 class="section-title">Professional <span class="gradient-text">Certifications</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card scroll-reveal" data-reveal-dir="up">
+                        <div class="cert-icon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h3 class="cert-title">Python Programming</h3>
+                        <span class="cert-issuer">Coursera / Authorized Provider</span>
+                        <p class="cert-desc">Covers advanced OOP, file processing, data structures, and PEP 8 guidelines
+                            implementation.</p>
+                        <span class="cert-id">ID: PY-849201-GTU</span>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card scroll-reveal" data-reveal-dir="up">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3 class="cert-title">Machine Learning Fundamentals</h3>
+                        <span class="cert-issuer">Kaggle / Stanford Online</span>
+                        <p class="cert-desc">Thorough training on regression, classification clustering, validation
+                            techniques, and scikit-learn models.</p>
+                        <span class="cert-id">ID: ML-392014-KAG</span>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card scroll-reveal" data-reveal-dir="up">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-chart-pie"></i>
+                        </div>
+                        <h3 class="cert-title">Data Science Basics</h3>
+                        <span class="cert-issuer">Google Career Certificates</span>
+                        <p class="cert-desc">Focuses on statistical modeling, EDA using Pandas/NumPy, data cleaning, and
+                            visual reporting techniques.</p>
+                        <span class="cert-id">ID: DS-583021-GGL</span>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card scroll-reveal" data-reveal-dir="up">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3 class="cert-title">AI Fundamentals</h3>
+                        <span class="cert-issuer">Microsoft Learn / Azure AI</span>
+                        <p class="cert-desc">Covers natural language processing, ITvision algorithms, and AI
+                            safety principles.</p>
+                        <span class="cert-id">ID: AI-910283-MSF</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <div class="section-container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Timeline</span>
+                    <h2 class="section-title">Academic <span class="gradient-text">Background</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="timeline scroll-reveal" data-reveal-dir="up">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - Present</span>
+                            <h3 class="timeline-title">Bachelor of Engineering in IT Engineering</h3>
+                            <h4 class="timeline-institution">Gujarat Technological University (GTU)</h4>
+                            <p class="timeline-desc">
+                                Core engineering curriculum focusing on Advanced Programming Paradigms, Computational
+                                Mathematics, Database Systems (SQL), Operating Systems, and Machine Learning.
+                            </p>
+                            <div class="timeline-achievements">
+                                <span><i class="fa-solid fa-trophy timeline-icon"></i> Current CPI/SPI: 8.40</span>
+                                <span><i class="fa-solid fa-star timeline-icon"></i> Rank in Semester Cohort (Top
+                                    5%)</span>
+                                <span><i class="fa-solid fa-award timeline-icon"></i> GTU Academic Scholar
+                                    Awardee</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Section -->
+        <section id="github" class="github-section">
+            <div class="section-container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Codebase</span>
+                    <h2 class="section-title">GitHub <span class="gradient-text">Showcase</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="github-layout scroll-reveal" data-reveal-dir="up">
+                    <!-- Profile Header & Stats -->
+                    <div class="github-profile-card">
+                        <div class="github-profile-info">
+                            <div class="github-avatar-glow">
+                                <i class="fa-brands fa-github github-avatar-icon"></i>
+                            </div>
+                            <div class="github-profile-text">
+                                <h3 class="github-profile-name">Chandrika Nandehariya</h3>
+                                <a href="https://github.com/chandrika018" target="_blank" rel="noopener noreferrer"
+                                    class="github-profile-link">
+                                    <i class="fa-solid fa-link"></i> github.com/chandrika018
+                                </a>
+                                <p class="github-profile-bio">ITEngineering Student | AI & Machine Learning
+                                    Enthusiast | Python Developer</p>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!-- Coding Activity Highlights -->
+                    
+
+                    <!-- Professional Coding Journey Timeline -->
+                    <div class="github-journey-section">
+                        <h4 class="github-panel-title"><i class="fa-solid fa-road title-icon"></i> Professional Coding
+                            Journey</h4>
+                        <div class="github-journey-timeline">
+                            <div class="journey-item">
+                                <div class="journey-marker"></div>
+                                <div class="journey-content">
+                                    <span class="journey-date">2023 - 2024</span>
+                                    <h5 class="journey-title">Foundation & Core Programming</h5>
+                                    <p class="journey-desc">Developed strong computational structures using Java and SQL
+                                        at GTU. Modeled relational databases and optimized algorithmic runtime
+                                        complexity.</p>
+                                </div>
+                            </div>
+                            <div class="journey-item">
+                                <div class="journey-marker"></div>
+                                <div class="journey-content">
+                                    <span class="journey-date">2024</span>
+                                    <h5 class="journey-title">Python Specialization & Exploratory Analysis</h5>
+                                    <p class="journey-desc">Transitioned to advanced Python programming. Built automated
+                                        data clearing, manipulation, and statistical distribution graphs using NumPy,
+                                        Pandas, and Matplotlib.</p>
+                                </div>
+                            </div>
+                            <div class="journey-item">
+                                <div class="journey-marker"></div>
+                                <div class="journey-content">
+                                    <span class="journey-date">2024 - 2025</span>
+                                    <h5 class="journey-title">Machine Learning & NLP Pipelines</h5>
+                                    <p class="journey-desc">Trained classifiers, regressors, and natural language
+                                        networks. Developed the Sonar Rock/Mine predictive system and text
+                                        categorization model.</p>
+                                </div>
+                            </div>
+                            <div class="journey-item">
+                                <div class="journey-marker"></div>
+                                <div class="journey-content">
+                                    <span class="journey-date">2025 - Present</span>
+                                    <h5 class="journey-title">AI System Deployment & Streamlit Interfaces</h5>
+                                    <p class="journey-desc">Engineered full-stack interactive AI interfaces (Streamlit
+                                        Career Counseling). Implementing validation pipelines, and actively committing
+                                        open-source work.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                    <!-- Featured Repository Showcase Cards -->
+                    <div class="github-repos-section">
+                        <h4 class="github-panel-title"><i class="fa-regular fa-folder-open title-icon"></i> Featured
+                            Repositories</h4>
+                        <div class="github-repos-grid">
+                            <!-- Repo 1 -->
+                            <a href="https://github.com/chandrika018/Student-Perf-Predictor" target="_blank"
+                                rel="noopener noreferrer" class="github-repo-card">
+                                <div class="github-repo-header">
+                                    <span class="github-repo-name"><i
+                                            class="fa-solid fa-book-bookmark repo-card-icon"></i>
+                                        Student-Perf-Predictor</span>
+                                    <span class="github-repo-visibility">Public</span>
+                                </div>
+                                <p class="github-repo-desc">End-to-end Machine Learning pipeline parsing student records
+                                    and performing Regression analysis using Scikit-Learn.</p>
+                                <div class="github-repo-meta">
+                                    <span class="github-repo-lang"><span class="lang-dot python-dot"></span>
+                                        Python</span>
+                                </div>
+                            </a>
+
+                            <!-- Repo 2 -->
+                            <a href="https://github.com/chandrika018/Rock-vs-Mine-Sonar" target="_blank"
+                                rel="noopener noreferrer" class="github-repo-card">
+                                <div class="github-repo-header">
+                                    <span class="github-repo-name"><i
+                                            class="fa-solid fa-circle-nodes repo-card-icon"></i>
+                                        Rock-vs-Mine-Sonar</span>
+                                    <span class="github-repo-visibility">Public</span>
+                                </div>
+                                <p class="github-repo-desc">AI binary classification model predicting Rock or Mine
+                                    material signatures using acoustic Sonar return readings.</p>
+                                <div class="github-repo-meta">
+                                    <span class="github-repo-lang"><span class="lang-dot python-dot"></span>
+                                        Python</span>
+                                </div>
+                            </a>
+
+                            <!-- Repo 3 -->
+                            <a href="https://github.com/chandrika018/AI-Career-Counseling-System" target="_blank"
+                                rel="noopener noreferrer" class="github-repo-card">
+                                <div class="github-repo-header">
+                                    <span class="github-repo-name"><i class="fa-solid fa-compass repo-card-icon"></i>
+                                        AI-Career-Counseling-System</span>
+                                    <span class="github-repo-visibility">Public</span>
+                                </div>
+                                <p class="github-repo-desc">Designed an AI-powered career guidance platform recommending
+                                    suitable paths based on student inputs and interests.</p>
+                                <div class="github-repo-meta">
+                                    <span class="github-repo-lang"><span class="lang-dot python-dot"></span>
+                                        Python</span>
+                                </div>
+                            </a>
+
+                            <!-- Repo 4 -->
+                            <a href="https://github.com/chandrika018/Fake-News-Prediction" target="_blank"
+                                rel="noopener noreferrer" class="github-repo-card">
+                                <div class="github-repo-header">
+                                    <span class="github-repo-name"><i class="fa-solid fa-newspaper repo-card-icon"></i>
+                                        Fake-News-Prediction</span>
+                                    <span class="github-repo-visibility">Public</span>
+                                </div>
+                                <p class="github-repo-desc">Created an NLP-based machine learning model that classifies
+                                    news articles as Real or Fake using TF-IDF.</p>
+                                <div class="github-repo-meta">
+                                    <span class="github-repo-lang"><span class="lang-dot python-dot"></span>
+                                        Python</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info scroll-reveal" data-reveal-dir="left">
+                        <h3 class="contact-info-title">Contact Details</h3>
+                        <p class="contact-info-desc">I am currently actively seeking Python developer and Machine
+                            Learning internships. Reach out via email, phone, or professional handles to start a
+                            conversation!</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method-item">
+                                <div class="contact-method-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="contact-method-text">
+                                    <span>Email Me</span>
+                                    <a
+                                        href="mailto:chandrikanandesariya018@gmail.com">chandrikanandesariya018@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method-item">
+                                <div class="contact-method-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="contact-method-text">
+                                    <span>Call/WhatsApp</span>
+                                    <a href="tel:+919106950665">+91 91069 50665</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method-item">
+                                <div class="contact-method-icon">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <div class="contact-method-text">
+                                    <span>GitHub Profile</span>
+                                    <a href="https://github.com/chandrika018" target="_blank"
+                                        rel="noopener noreferrer">github.com/chandrika018</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method-item">
+                                <div class="contact-method-icon">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="contact-method-text">
+                                    <span>LinkedIn</span>
+                                    <a href="https://www.linkedin.com/in/chandrika-nandehariya-5414bb329"
+                                        target="_blank"
+                                        rel="noopener noreferrer">linkedin.com/in/chandrika-nandehariya-5414bb329</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container scroll-reveal" data-reveal-dir="right">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="form-name" class="form-label">Full Name</label>
+                                <input type="text" id="form-name" class="form-input" placeholder="Your Name" required>
+                                <span class="form-error" id="name-error">Please enter your name.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email" class="form-label">Email Address</label>
+                                <input type="email" id="form-email" class="form-input"
+                                    placeholder="your.email@example.com" required>
+                                <span class="form-error" id="email-error">Please enter a valid email address.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject" class="form-label">Subject</label>
+                                <input type="text" id="form-subject" class="form-input"
+                                    placeholder="What is this about?" required>
+                                <span class="form-error" id="subject-error">Please enter a subject.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message" class="form-label">Message</label>
+                                <textarea id="form-message" class="form-input form-textarea"
+                                    placeholder="Your Message..." required></textarea>
+                                <span class="form-error" id="message-error">Please enter your message.</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane btn-icon"></i>
+                            </button>
+
+                            <div class="form-alert" id="form-alert-msg"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-accent">&lt;</span>Chandrika<span class="logo-accent">.dev /&gt;</span>
+                </a>
+                <p class="footer-tagline">Building clean backend systems and training tomorrow's AI models.</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="mailto:chandrikanandesariya018@gmail.com" class="footer-social-icon"
+                    aria-label="Email Address"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/chandrika018" target="_blank" rel="noopener noreferrer"
+                    class="footer-social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/chandrika-nandehariya-5414bb329" target="_blank"
+                    rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <p class="footer-copy">&copy; 2026 Chandrika Nandehariya. All Rights Reserved. Designed for maximum
+                performance & visual clarity.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
